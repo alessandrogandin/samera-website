@@ -1,6 +1,16 @@
 # Immagini Samera
 
-## Identità blu — versione attuale
+## Carta da zucchero e grigio — versione attuale
+
+Palette: carta da zucchero `#819fac`, azzurro tenue `#b2c9d4`, grigio antracite e superfici grigio chiaro. Logo fornito mantenuto, in grigio e nella variante chiara.
+
+Fotografie attuali: `dist/assets/samera-compact-machine-dusty.webp` e `dist/assets/samera-engineering-dusty.webp`. Modifiche cromatiche con lo strumento integrato ImageGen; soggetti e composizione mantenuti.
+
+Prompt macchina: Use case: precise-object-edit. In this photograph change ONLY the painted BLUE side panels on the compact benchtop machine to elegant LIGHT DUSTY BLUE, the Italian color carta da zucchero: muted powder blue-gray #819fac, a soft desaturated pale blue with gray undertone, noticeably lighter and grayer than the current blue. Keep all steel and charcoal components unchanged. Preserve exact machine geometry, compact proportions, screen, screws, bracket, workbench, caliper, camera, composition and dark left negative space. Retain realistic powder-coat material, lighting and shadows. No added objects, text, logo or watermark. Same aspect ratio.
+
+Prompt dettaglio: Use case: precise-object-edit. Change ONLY the small blue anodized flange in the upper-left to a light desaturated dusty blue-gray, Italian carta da zucchero, #819fac, with realistic metallic shading. Keep the main aluminum housing, circuit board, connectors, workbench and caliper exactly unchanged. Preserve geometry, composition, camera, sharpness and aspect ratio. No added text, logo or watermark.
+
+## Identità blu — versione precedente
 
 Logo: `dist/assets/samera-logo.svg` e variante chiara `samera-logo-light.svg`, tracciati in vettoriale dal logo fotografico SAMERA fornito dall'utente (WhatsApp Image 2026-10-26 at 21.43.28.jpeg). Proporzioni e disegno geometrico mantenuti, sfondo fotografico rimosso mediante ricostruzione dei tracciati. Favicon derivata dalla S dello stesso marchio.
 
