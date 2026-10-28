@@ -1,5 +1,15 @@
 # Immagini Samera
 
+## Identità blu — versione attuale
+
+Logo: `dist/assets/samera-logo.svg` e variante chiara `samera-logo-light.svg`, tracciati in vettoriale dal logo fotografico SAMERA fornito dall'utente (WhatsApp Image 2026-10-26 at 21.43.28.jpeg). Proporzioni e disegno geometrico mantenuti, sfondo fotografico rimosso mediante ricostruzione dei tracciati. Favicon derivata dalla S dello stesso marchio.
+
+Fotografie attuali: `dist/assets/samera-compact-machine-blue.webp` e `dist/assets/samera-engineering-blue.webp`. Modifiche cromatiche realizzate con lo strumento integrato ImageGen, mantenendo soggetti e composizione. I concept restano immagini illustrative.
+
+Prompt macchina: Use case: precise-object-edit. Edit the reference image for an elegant navy-blue engineering website. Change ONLY the yellow painted side panels on the small benchtop sheet-metal bending machine to a refined desaturated medium-deep sapphire blue (#315f8b). Preserve the exact machine geometry, compact proportions, composition, left-side dark negative space, camera angle, workbench, screen, metal tooling, caliper, small bent metal bracket, screws and background. Preserve realistic powder-coated texture and lighting. Give the overall lighting a subtly cooler neutral balance while keeping natural wood. No yellow painted parts remaining. Do not add, remove or change objects. No text, logo, or watermark. Same aspect ratio.
+
+Prompt dettaglio: Use case: precise-object-edit. Change ONLY the gold/yellow anodized small metal flange in the upper-left of this engineering photograph to desaturated steel-blue anodized aluminum. Preserve its shape, holes, texture, realistic highlights and all other objects exactly, including main silver housing, green circuit board, cables, caliper and workbench. Keep exact composition and aspect ratio. Subtly neutral-cool color balance suited to an elegant navy-blue website. No text, no logos, no watermark.
+
 ## samera-compact-machine.webp — immagine principale attuale
 
 Generata con lo strumento integrato ImageGen. Concept illustrativo di una piccola macchina utensile da banco: comunica dimensioni contenute, utilità e integrazione di meccanica e controllo digitale. Non rappresenta un prodotto Samera già realizzato o a catalogo. Sostituisce il robot nella homepage; l'asset precedente è conservato per lo storico.

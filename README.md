@@ -12,6 +12,6 @@ Navigazione responsive, filtri degli ambiti applicativi, approfondimenti accessi
 
 ## Direzione grafica
 
-Rielaborazione del template Industry presente nella cartella originale `template`: fotografia industriale ampia, struttura per competenze, antracite, accenti gialli e griglie pulite. Template originale conservato. Nessuna dipendenza dai suoi script o contenuti dimostrativi.
+Rielaborazione del template Industry presente nella cartella originale `template`: fotografia industriale ampia, struttura per competenze, blu notte, accenti azzurri e griglie pulite. Logo vettoriale ripreso dal riferimento fornito dal committente. Template originale conservato. Nessuna dipendenza dai suoi script o contenuti dimostrativi.
 
 Le immagini editoriali sono generate con ImageGen e non documentano impianti o prodotti reali di Samera. Prompt in `ASSETS.md`.
