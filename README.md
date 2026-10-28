@@ -8,7 +8,7 @@ Dalla cartella `dist`: `python3 -m http.server 4173`.
 
 ## Contenuti e interazioni
 
-Navigazione responsive, filtri degli ambiti applicativi, approfondimenti accessibili in dialog, creazione e download di un brief di progetto. I moduli non inviano dati e non usano archiviazione persistente. Collegare un recapito o un servizio di contatto quando disponibile. Gli ambiti illustrati sono possibilità da valutare, non prodotti già a catalogo.
+Navigazione responsive, filtri degli ambiti applicativi, approfondimenti accessibili in dialog, creazione e download di un brief di progetto. I moduli non inviano dati e non usano archiviazione persistente. La sezione Contatti e il footer includono email e telefono cliccabili: info@samera.tech, +39 350 027 3037. I collegamenti aprono il client email o l’app telefonica del visitatore. Gli ambiti illustrati sono possibilità da valutare, non prodotti già a catalogo.
 
 ## Direzione grafica
 

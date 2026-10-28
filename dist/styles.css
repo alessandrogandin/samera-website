@@ -23,3 +23,9 @@
 ::selection{color:#263038}.skip-link{color:#263038}
 
 .button-dark{color:#fff}.button-dark:hover{background:#414d54}
+
+/* Direct contact details. */
+.contacts{background:#fff}.contacts-inner{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}.contacts h2{font-size:44px;margin-bottom:22px}.contacts-intro p{font-size:13px;line-height:1.9;color:var(--muted);margin-bottom:0}.contact-details{font-style:normal;display:grid;gap:0}.contact-item{display:block;padding:24px 0;border-bottom:1px solid var(--line)}.contact-item:first-child{border-top:1px solid var(--line)}.contact-label{display:block;font-size:9px;font-weight:800;letter-spacing:1.7px;color:var(--muted);margin-bottom:9px}.contact-value{font-family:var(--display);font-size:29px;letter-spacing:-.9px;display:flex;justify-content:space-between;align-items:center;gap:18px;line-height:1.4;transition:color .2s}.contact-value>span{color:#698692;font-size:27px;transition:transform .2s}.contact-item:hover .contact-value{color:#526b77}.contact-item:hover .contact-value>span{transform:translate(3px,-3px)}.contact-hint{display:block;font-size:11px;color:var(--muted);margin-top:7px}.footer-main{gap:45px}.footer-contacts{font-style:normal;display:flex;flex-direction:column;gap:5px;font-size:11px;color:#cbd6dc}.footer-contacts a:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1180px){.header-inner{gap:22px}nav{gap:19px}.contacts-inner{gap:60px}.footer-main{gap:28px}.contact-value{font-size:27px}}
+@media(max-width:850px){.contacts-inner{gap:35px}.contacts h2{font-size:36px}.contact-value{font-size:23px}.footer-main{flex-wrap:wrap}.footer-contacts{font-size:10px}}
+@media(max-width:640px){.contacts-inner{grid-template-columns:1fr;gap:32px}.contacts h2{font-size:36px}.contacts-intro p{font-size:12px}.contacts-intro p br{display:none}.contact-value{font-size:27px}.contact-item{padding-block:22px}.footer-main{gap:24px}.footer-contacts{font-size:12px;gap:7px}}
