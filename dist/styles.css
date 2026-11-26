@@ -24,6 +24,34 @@
 
 .button-dark{color:#fff}.button-dark:hover{background:#414d54}
 
+.services {
+  background: var(--accent-pale);
+}
+.services-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: clamp(32px, 6vw, 96px);
+}
+.services h2 {
+  margin: 0;
+  font-size: clamp(38px, 4vw, 56px);
+}
+.service-description {
+  max-width: 58ch;
+}
+.service-description img {
+  margin-bottom: 20px;
+}
+.service-description p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+@media (max-width: 640px) {
+  .services-inner { grid-template-columns: 1fr; }
+}
+
 /* Direct contact details. */
 .contacts{background:#fff}.contacts-inner{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}.contacts h2{font-size:44px;margin-bottom:22px}.contacts-intro p{font-size:13px;line-height:1.9;color:var(--muted);margin-bottom:0}.contact-details{font-style:normal;display:grid;gap:0}.contact-item{display:block;padding:24px 0;border-bottom:1px solid var(--line)}.contact-item:first-child{border-top:1px solid var(--line)}.contact-label{display:block;font-size:9px;font-weight:800;letter-spacing:1.7px;color:var(--muted);margin-bottom:9px}.contact-value{font-family:var(--display);font-size:29px;letter-spacing:-.9px;display:flex;justify-content:space-between;align-items:center;gap:18px;line-height:1.4;transition:color .2s}.contact-value>span{color:#698692;font-size:27px;transition:transform .2s}.contact-item:hover .contact-value{color:#526b77}.contact-item:hover .contact-value>span{transform:translate(3px,-3px)}.contact-hint{display:block;font-size:11px;color:var(--muted);margin-top:7px}.footer-main{gap:45px}.footer-contacts{font-style:normal;display:flex;flex-direction:column;gap:5px;font-size:11px;color:#cbd6dc}.footer-contacts a:hover{text-decoration:underline;text-underline-offset:4px}
 @media(max-width:1180px){.header-inner{gap:22px}nav{gap:19px}.contacts-inner{gap:60px}.footer-main{gap:28px}.contact-value{font-size:27px}}
