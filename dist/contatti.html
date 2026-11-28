@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti e brief di progetto — Samera</title>
+  <meta name="description" content="Contatta Samera e prepara il brief del tuo progetto.">
+  <meta property="og:title" content="Contatti e brief di progetto — Samera">
+  <meta property="og:description" content="Contatta Samera e prepara il brief del tuo progetto.">
+  <meta name="theme-color" content="#3b454c">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="cookie-consent.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="brief.js"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Vai al contenuto</a>
+<header class="mast">
+  <div class="shell mast-inner">
+    <a class="brand" href="index.html" aria-label="Samera, homepage"><img src="assets/samera-logo.svg" width="180" height="30" alt="Samera"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" hidden>Menu</button>
+    <nav id="nav" aria-label="Navigazione principale">
+        <a href="index.html">Studio</a>
+        <details class="nav-services">
+          <summary>Servizi</summary>
+          <div class="service-links">
+            <a href="index.html#competenze">Progettazione e integrazione</a>
+            <a href="stampa-3d.html">Stampa 3D</a>
+          </div>
+        </details>
+        <a href="soluzioni.html">Soluzioni</a>
+        <a href="metodo.html">Metodo</a>
+        <a href="contatti.html" aria-current="page">Contatti</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="contact-sheet shell" id="contatti">
+  <div class="contact-intro"><p class="kicker">Contatti</p><h1>Parliamo del<br><em>tuo progetto.</em></h1><p class="summary">Raccontaci cosa vuoi realizzare. Puoi contattarci direttamente o preparare un riepilogo da condividere.</p>
+    <address><a href="mailto:info@samera.tech">info@samera.tech</a><a href="tel:+393500273037">+39 350 027 3037</a></address>
+  </div>
+  <div class="brief-sheet" id="progetto"><h2>Il brief di progetto</h2><noscript><p>Per preparare un brief nel browser, attiva JavaScript oppure contattaci via email o telefono.</p></noscript>
+<form id="brief-form" hidden><div class="form-row"><label>Il tuo nome<input name="name" autocomplete="name" placeholder="Nome e cognome" required maxlength="100"></label><label>La tua azienda<input name="company" autocomplete="organization" placeholder="Nome dell’azienda" required maxlength="150"></label></div><label>Da dove partiamo?<select name="interest" required><option value="">Seleziona un ambito</option><option>Un nuovo prodotto</option><option>Monitoraggio di macchine e processi</option><option>IoT e macchine connesse</option><option>AI e controllo qualità</option><option>Automazione su misura</option><option>Un’idea da esplorare</option></select></label><label>Raccontaci la tua sfida<textarea name="challenge" rows="3" placeholder="Il problema da risolvere, l’idea da sviluppare, il risultato che immagini…" required minlength="10" maxlength="3000"></textarea></label><p class="form-note">I dati restano nel tuo browser e servono solo a creare il riepilogo. Nessun invio automatico.</p><button type="submit" class="button">Prepara il tuo brief</button><p id="form-status" role="status"></p></form></div></section>
+</main>
+<footer class="site-footer">
+  <div class="shell foot-top">
+    <a class="brand" href="index.html"><img src="assets/samera-logo-light.svg" alt="Samera" width="180" height="30"></a>
+    <address><a href="mailto:info@samera.tech">info@samera.tech</a><br><a href="tel:+393500273037">+39 350 027 3037</a></address>
+    <p>Ste.Mar. S.r.l.<br>Via Trieste, 89/91 · 31020 San Vendemiano (TV)</p>
+  </div>
+  <div class="shell foot-base">
+    <small>© <span id="year">2026</span> Samera · P.IVA 04543220265 · REA TV358501</small>
+    <div><a href="cookie-policy.html#dati-brief">Privacy e dati</a><a href="cookie-policy.html">Cookie policy</a><button type="button" data-cookie-preferences hidden>Preferenze cookie</button></div>
+  </div>
+</footer>
+<dialog id="brief-dialog" aria-labelledby="brief-title"><button class="dialog-close" aria-label="Chiudi riepilogo">×</button><h2 id="brief-title">Il tuo brief</h2><pre id="brief-preview"></pre><p class="form-note">Il brief è pronto da scaricare e condividere. Non è stato inviato a Samera.</p><div class="dialog-actions"><button class="button" id="download-brief">Scarica il brief</button><button class="under-link" id="copy-brief">Copia il testo</button></div><p id="copy-status" role="status"></p></dialog>
+<noscript><p class="cookie-noscript">JavaScript è disattivato. I caratteri esterni restano bloccati. <a href="cookie-policy.html">Cookie policy</a></p></noscript>
+</body>
+</html>
